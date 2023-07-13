@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const connectionString =
-  "mongodb+srv://Nahid570:faraji5702@cluster0.dhotjns.mongodb.net/ai?retryWrites=true&w=majority";
+  "mongodb+srv://Nahid570:faraji5702@cluster0.dhotjns.mongodb.net/ai-master?retryWrites=true&w=majority";
 
 const client = new MongoClient(connectionString);
 
